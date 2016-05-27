@@ -10,8 +10,8 @@ import java.util.*;
  */
 public class OrderedIntList 
 {
-	private int[] array;  
-	private int count;
+	protected int[] array;  
+	protected int count;
 	
 	/** Create an empty list */
 	OrderedIntList()
