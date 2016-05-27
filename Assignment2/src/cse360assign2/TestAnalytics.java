@@ -12,6 +12,7 @@ public class TestAnalytics
 		Analytics analytics = new Analytics();
 		
 		System.out.println("**********Simple Calculator of data***********");
+		System.out.println();
 		
 		do
 		{
@@ -35,5 +36,8 @@ public class TestAnalytics
 		System.out.print("\nLow Value of the Array: " + analytics.low());
 		// print the number of integers in the array
 		System.out.print("\nNumber of the Integers in the Array: " + analytics.numInts());
+		
+		System.out.println("\n");
+		System.out.println("******************* END ***********************");
 	}
 }
