@@ -85,7 +85,8 @@ public class OrderedIntList
 		}
 		System.out.println();
 	}
-
+	
+	/** Debug */
 	private boolean debugging()
 	{
 		boolean debug = true;
